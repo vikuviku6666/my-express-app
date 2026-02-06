@@ -6,6 +6,9 @@
     "module": "nodenext",
     "outDir": "dist",
     "lib": ["es2024", "dom"],
-    "strict": true
+    // "strict": true,
+    // "allowImportingTsExtensions": true,
+    // "noEmit": true,
+    // "verbatimModuleSyntax": true
   }
 }
