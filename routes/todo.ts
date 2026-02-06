@@ -3,7 +3,9 @@ import { addTodo } from '../data.js';
 
 const router = express.Router();
 
-router.post('/post', (req, res) => {
+router.post('/todos', (req, res) => {
+  console.log(req.body);
+  
   const text = req.body.text;
 
   const addedTodo = addTodo(text);
